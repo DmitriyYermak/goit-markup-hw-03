@@ -178,6 +178,8 @@ img {
 /* ----------Our benefits---------- */
 
 .our-benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .benefits-container {
   padding-top: 60px;
@@ -195,6 +197,7 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
 }
 
 .benefits {
@@ -234,6 +237,19 @@ img {
 
 .card-content {
   background-color: #ffffff;
+}
+.content-container {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.avatar-name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.profession {
+  text-align: center;
 }
 
 .title-team {
@@ -297,6 +313,7 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 
 .list-portfolio {
