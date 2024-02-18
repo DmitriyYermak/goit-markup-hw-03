@@ -204,10 +204,6 @@ img {
   overflow: hidden;
 }
 
-.title-benefits {
-  margin-bottom: 0px;
-}
-
 .benefits {
   display: flex;
   gap: 24px;
