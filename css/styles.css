@@ -73,7 +73,6 @@ img {
 
 .menu {
   display: flex;
-  gap: 40px;
 }
 
 .menu-item {
