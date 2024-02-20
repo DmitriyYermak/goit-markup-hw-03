@@ -68,16 +68,11 @@ img {
 
 .logo-header {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .menu {
   display: flex;
   gap: 40px;
-}
-
-.menu-item {
-  margin-right: 40px;
 }
 
 .logo-span {
@@ -118,6 +113,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .class-link-contacts:hover,
@@ -129,10 +125,6 @@ img {
 /* ----------Hero image---------- */
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 292px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
 }
 
@@ -142,6 +134,8 @@ img {
   width: 1440px;
   height: 600px;
   background-color: #2e2f42;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -185,10 +179,10 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.benefits-container {
+/* .benefits-container {
   padding-top: 60px;
   padding-bottom: 120px;
-}
+} */
 
 .visually-hidden {
   position: absolute;
@@ -306,9 +300,6 @@ img {
   padding-bottom: 120px;
 }
 
-.portfolio-container {
-}
-
 .title-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -335,8 +326,8 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
+
 .content-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -394,5 +385,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  height: 112px;
 }
 /* --------- /Footer --------- */
